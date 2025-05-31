@@ -4,9 +4,9 @@ class Workout:
     """
     def __init__(self, workout_type, duration, calories, date):
         self.workout_type = workout_type
-        self.duration = duration  # in minutes
+        self.duration = duration  
         self.calories = calories
-        self.date = date  # format: YYYY-MM-DD
+        self.date = date  
 
     def to_dict(self):
         """
